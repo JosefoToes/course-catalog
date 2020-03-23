@@ -1,0 +1,46 @@
+#clock_icon_par, #house_icon_par{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  opacity: 0.3;
+  transition: 0.3s;
+  margin: 30px auto;
+}
+.men_ico{
+  transform: scale(0.8);
+}
+.men_ico:hover{
+  opacity: 0.9 !important;
+}
+.clock_icon, .house_icon{
+  fill:none;
+  stroke:#fff;
+  stroke-width:2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+}
+#time{
+  transform: scale(0.9);
+  display: none;
+}
+#timezones_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(1, 100px);
+  height: 0;
+  transition: 0.1s;
+}
+.clock {
+  padding: 0 10px;
+  text-align: center;
+  margin:0;
+  color:#fff;
+  font-size: 14px;
+  user-select: none;
+}
+#t0, #t4, #t8, #t12, #t16 {background:var(--ow-darksapphire);}
+#t1, #t5, #t9, #t13, #t17 {background:var(--ow-mediumsapphire);}
+#t2, #t6, #t10, #t14, #t18{background:var(--ow-sapphire);}
+#t3, #t7, #t11, #t15, #t19{background:var(--ow-brightsapphire);}
