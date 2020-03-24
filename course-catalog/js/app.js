@@ -57,7 +57,7 @@ function showall(){
     }
     month = months[new Date(values[i].date_created).getMonth()];
     year = new Date(values[i].date_created).getFullYear().toString();
-    document.getElementById('microsite_list').innerHTML += '<div class="col-sm-12 col-md-3 valueslist '+audience+' '+ltype+'" id="v'+i+'"><span class="category" style="display:'+confdnt+';">Private</span><figure><a href='+link+' target="_blank"><img src="img/'+values[i].img_min+'" alt="Hero image"></a><figcaption><a href='+link+' target="_blank"><h3>'+values[i].title+'</h3></a></figcaption></figure><p><b>'+values[i].subtitle+'</b><br>'+values[i].description+'</p><p><span class="date">'+month+', '+year+'</span>'+'<a tabindex="0" class="plus" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" data-content="<a class=\'button '+btn+' bi\' href='+link+' target=\'_blank\'>Go to Course</a><a class=\'button '+btn+' bi\' href=\'mailto:jose-luis.dominguez@hpe.com&subject=Request%20Access%20for%20'+values[i].title+'%20Course&body=Hello team, I would like to request access for this course.\' style=\'display:'+confdnt+';\'>Request access</a>"></a></div>';
+    document.getElementById('microsite_list').innerHTML += '<div class="col-sm-12 col-md-3 valueslist '+audience+' '+ltype+'" id="v'+i+'"><span class="category" style="display:'+confdnt+';">Private</span><figure><a href='+link+' target="_blank"><img src="img/'+values[i].img_min+'" alt="Hero image"></a><figcaption><a href='+link+' target="_blank"><h3>'+values[i].title+'</h3></a></figcaption></figure></div>';
     newkeywords = values[i].title.split(' ');
     values[i].keywords = newkeywords.concat(values[i].info);
     values[i].keywords.push(month, year, month + ', ' + year, audience);

@@ -23,7 +23,7 @@ body{
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-color: #eee;
+  background-color: #1A1F2B;
 }
 .container{
   padding: 80px 0;
@@ -39,6 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
   font: 500 5em/1 'MetricHPE', Arial, sans-serif;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
 }
 h2{
   font-size: 40px;
@@ -88,19 +90,24 @@ button.disabled:hover{
 }
 button.white, button.white:hover{
   background-color: rgba(255,255,255,0);
-  border: 1px solid #fff;
+  border: 0;
+  border-bottom: 4px solid #01A982;
   color: #fff;
   cursor: pointer;
-  padding: 7px 12px;
-  margin: 5px 3px 0 0;
+  padding: 5px 1px 4px;
+  margin: 5px 7px;
   outline-color: rgba(60,60,60,0);
-  font: 200 0.85rem/1 'MetricHPE', Arial, sans-serif;
+  font: 200 1rem/1 'MetricHPE', Arial, sans-serif;
+  transition: 0.2s;
 }
 button.white{
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  color: rgba(255,255,255,0.7);
 }
 button.white:hover, button.white.active{
   opacity: 1;
+  color: rgba(255,255,255,1);
+  border-bottom: 4px solid #00E8CF;
 }
 a, a:hover {
   color: #080AAE;
@@ -118,9 +125,11 @@ a, a:hover {
   font-size: 30px;
 }
 .hero {
-  background-color: #01A982;
+  background-color: #007A5E;
   text-align: left;
   height: auto;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .hero > * {
   color: white;
@@ -156,19 +165,15 @@ a, a:hover {
   padding: 0;
 }
 .valueslist {
-  border-radius: .5em;
   max-width: 220px;
-  padding: 0 0 0.5em;
+  padding: 0;
   margin-bottom: 20px;
   background-color: #fff;
   margin-right: 0.8%;
-  box-shadow: 0 0 15px #ddd;
 }
 .valueslist > figure {
   max-height: 220px;
   overflow: hidden;
-  border-top-left-radius: .5em;
-  border-top-right-radius: .5em;
   position: relative;
   margin: 0;
   background-color: #000;
@@ -178,14 +183,14 @@ a, a:hover {
 }
 .valueslist > figure > figcaption {
   position: absolute;
-  bottom: -1px;
+  top: 0;
   width: 100%;
-  background: linear-gradient(transparent,rgba(0, 0, 0, .5));
+  background: linear-gradient(rgba(0, 0, 0, .5),transparent);
 }
 .valueslist h3 {
   color: white;
-  padding: 5rem 1.1rem .75em;
-  font: 200 1.5rem/1 'MetricHPE', Arial, sans-serif;
+  padding: 0.7rem 0.7rem 3rem;
+  font: 200 1rem/1 'MetricHPE', Arial, sans-serif;
 }
 .valueslist a, .valueslist a:hover{
   text-decoration: none;
@@ -234,11 +239,11 @@ a, a:hover {
 }
 #filter {
   padding: 20px 15px;
-  /* border-radius: 40px; */
-  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 12px;
+  border: 0;
   width: 460px;
   height: 24px;
-  background: transparent;
+  background: rgba(255,255,255,0.1);
   color: rgba(255,255,255,1);
   font: 200 1.4rem/1 'MetricHPE', Arial, sans-serif;
   transition: 0.15s;
@@ -394,7 +399,7 @@ a{
   word-break: break-word;
 }
 footer, footer a, footer a:hover{
-  background-color: #000;
+  background-color: #1A1F2B;
   color: #ccc;
   font-size: 12px;
 }
@@ -477,13 +482,13 @@ a:not([href]):not([tabindex]){
   font: 100 0.95em/1.7 Arial, sans-serif;
 }
 .srch{
-  margin: 0 10px 0 -30px;
-  opacity: 0.5;
+  margin: 0 0 0 -40px;
+  opacity: 0.8;
   user-select: none;
-  font-size: 18px;
+  font-size: 24px;
 }
 .container{
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 a.navlink, a.navlink:hover{
   float: right;
