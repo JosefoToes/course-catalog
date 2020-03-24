@@ -14,6 +14,17 @@ var values = [
     id: '1904', 
     order: '2', 
     info: ['mykeyword'],
+    title:'Solving problems III', 
+    subtitle: 'Subtitle', 
+    description: 'Course description',
+    img: '1649/hero-module-dark.png',
+    img_min: '1904.jpg',
+    date_created: '2019-03-21',
+    private: true
+  },{
+    id: '1904', 
+    order: '2', 
+    info: ['mykeyword'],
     title:'Solving problems II', 
     subtitle: 'Subtitle', 
     description: 'Course description',

@@ -57,16 +57,16 @@ function showall(){
     }
     month = months[new Date(values[i].date_created).getMonth()];
     year = new Date(values[i].date_created).getFullYear().toString();
-    document.getElementById('microsite_list').innerHTML += '<div class="col-sm-12 col-md-3 valueslist '+audience+' '+ltype+'" id="v'+i+'"><span class="category" style="display:'+confdnt+';">Private</span><figure><a href='+link+' target="_blank"><img src="img/'+values[i].img_min+'" alt="Hero image"></a><figcaption><a href='+link+' target="_blank"><h3>'+values[i].title+'</h3></a></figcaption></figure></div>';
+    document.getElementById('courses_list').innerHTML += '<div class="col-10 col-sm-5 col-md-3 valueslist '+audience+' '+ltype+'" id="v'+i+'"><span class="category" style="display:'+confdnt+';">Private</span><figure><a href='+link+' target="_blank"><img src="img/'+values[i].img_min+'" alt="Hero image"></a><figcaption><a href='+link+' target="_blank"><h3>'+values[i].title+'</h3></a></figcaption></figure></div>';
     newkeywords = values[i].title.split(' ');
     values[i].keywords = newkeywords.concat(values[i].info);
     values[i].keywords.push(month, year, month + ', ' + year, audience);
     values[i].keywords.forEach(function(keyword){
       if(keyword == 'public'){
-        values[i].keywords.push('public microsites');
+        values[i].keywords.push('public courses');
       }
       if(keyword == 'private'){
-        values[i].keywords.push('private microsites');
+        values[i].keywords.push('private courses');
       }
     });
   }
