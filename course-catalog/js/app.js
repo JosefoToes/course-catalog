@@ -1,5 +1,5 @@
-var domain = 'https://path.to/domain/';
-var domain2 = 'https://path.io/to/domain/';
+var domain = 'https://hpe.sabacloud.com/Saba/Web_spf/HPE/common/ledetail/000';
+var domain2 = 'https://hpe-external.sabacloud.com/Saba/Web_spf/HPE/common/ledetail/000';
 var valueslist = document.getElementsByClassName('valueslist');
 var vs = document.querySelectorAll('.valueslist');
 var content = document.getElementById('content');
