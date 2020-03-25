@@ -5,7 +5,8 @@ var courses = [{
         release: "43853",
         format: "Other",
         internal_id: "1124881",
-        partner_id: ""
+        partner_id: "",
+        info: ""
     },
     {
         geo: "Global",
@@ -14,7 +15,8 @@ var courses = [{
         release: "43889",
         format: "WBT",
         internal_id: "1128283",
-        partner_id: ""
+        partner_id: "",
+        info: ""
     },
     {
         geo: "Asia Pacific,DACH & Russia,North America,Northern Europe,Southern Europe,UK & I",
@@ -23,7 +25,8 @@ var courses = [{
         release: "43875",
         format: "WBT",
         internal_id: "1130676",
-        partner_id: ""
+        partner_id: "",
+        info: ""
     },
     {
         geo: "Global",
@@ -32,7 +35,8 @@ var courses = [{
         release: "43860",
         format: "Other",
         internal_id: "n/a",
-        partner_id: "n/a"
+        partner_id: "n/a",
+        info: ""
     },
     {
         geo: "Global",
@@ -41,7 +45,8 @@ var courses = [{
         release: "43844",
         format: "Video",
         internal_id: "1125885",
-        partner_id: ""
+        partner_id: "",
+        info: ""
     },
     {
         geo: "Global",
@@ -50,7 +55,8 @@ var courses = [{
         release: "43875",
         format: "WBT",
         internal_id: "1131057",
-        partner_id: "1131057"
+        partner_id: "1131057",
+        info: ""
     },
     {
         geo: "Global",
@@ -59,7 +65,8 @@ var courses = [{
         release: "43889",
         format: "WBT",
         internal_id: "1131157",
-        partner_id: "1131157"
+        partner_id: "1131157",
+        info: ""
     },
     {
         geo: "Global",
@@ -68,7 +75,8 @@ var courses = [{
         release: "43868",
         format: "WBT",
         internal_id: "1131369",
-        partner_id: ""
+        partner_id: "",
+        info: ""
     },
     {
         geo: "DACH,UK IMESA,North America,Central Eastern Europe & Russia,Southern Europe,Asia Pacific",
@@ -77,7 +85,8 @@ var courses = [{
         release: "43889",
         format: "WBT",
         internal_id: "1131385",
-        partner_id: "1131385"
+        partner_id: "1131385",
+        info: ""
     },
     {
         geo: "Global",
@@ -86,7 +95,8 @@ var courses = [{
         release: "43889",
         format: "Podcast",
         internal_id: "TBD",
-        partner_id: "TBD"
+        partner_id: "TBD",
+        info: ""
     },
     {
         geo: "Global",
@@ -95,7 +105,8 @@ var courses = [{
         release: "43941",
         format: "WBT",
         internal_id: "1131822",
-        partner_id: "1131822"
+        partner_id: "1131822",
+        info: ""
     },
     {
         geo: "Global",
@@ -104,7 +115,8 @@ var courses = [{
         release: "43938",
         format: "WBT",
         internal_id: "1131798",
-        partner_id: "1131798"
+        partner_id: "1131798",
+        info: ""
     },
     {
         geo: "Global",
@@ -113,7 +125,8 @@ var courses = [{
         release: "43934",
         format: "WBT",
         internal_id: "TBD",
-        partner_id: "TBD"
+        partner_id: "TBD",
+        info: ""
     },
     {
         geo: "Global",
@@ -122,7 +135,8 @@ var courses = [{
         release: "43948",
         format: "WBT",
         internal_id: "TBD",
-        partner_id: "TBD"
+        partner_id: "TBD",
+        info: ""
     },
     {
         geo: "Global",
@@ -131,6 +145,7 @@ var courses = [{
         release: "43944",
         format: "WBT",
         internal_id: "TBD",
-        partner_id: "TBD"
+        partner_id: "TBD",
+        info: ""
     }
 ];
